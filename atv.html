@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semana de Tecnologia e Cultura</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #2563eb;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 25px;
+            border: 2px solid #ccc;
+        }
+
+        section h2 {
+            color: #1e3a8a;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        #sobre p {
+            text-align: justify;
+            text-indent: 30px;
+        }
+
+        #sobre img {
+            width: 80%;
+            height: 300px;
+            object-fit: cover;
+            border: 3px solid #1e3a8a;
+            display: block;
+            margin: 20px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #f8fafc;
+        }
+
+        th, td {
+            border: 1px solid #64748b;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1e3a8a;
+            color: white;
+        }
+
+        .atividade {
+            width: 80%;
+            height: 150px;
+            margin: 20px auto;
+            padding: 15px;
+            border: 3px solid;
+        }
+
+        .atividade h3 {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .atividade a {
+            color: #1e3a8a;
+        }
+
+        .caixa1 {
+            background-color: #bfdbfe;
+            border-color: #1e3a8a;
+            border-radius: 0;
+        }
+
+        .caixa2 {
+            background-color: #bbf7d0;
+            border-color: green;
+            border-radius: 20px;
+        }
+
+        .caixa3 {
+            background-color: #fecaca;
+            border-color: purple;
+            border-width: 5px;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+        }
+
+        #inscricoes a {
+            color: #2563eb;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>IFCE Campus Maranguape</p>
+        <p>Conhecimento, inovação e cultura em um só lugar!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Evento</h2>
+
+        <p>
+            A Semana de Tecnologia e Cultura do IFCE Campus Maranguape
+            é um evento voltado à aprendizagem, à inovação e à valorização
+            da cultura. Seu objetivo é proporcionar aos estudantes novas
+            experiências e oportunidades de conhecimento.
+        </p>
+
+        <p>
+            Durante o evento, os participantes poderão conhecer novas
+            tecnologias, participar de oficinas, assistir a palestras
+            e compartilhar ideias. A iniciativa busca incentivar a
+            criatividade e a colaboração.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80"
+        alt="Estudantes utilizando computadores">
+    </section>
+
+    <section id="programacao">
+        <h2>Programação</h2>
+
+        <table>
+            <tr>
+                <th>Horário</th>
+                <th>Atividade</th>
+                <th>Local</th>
+            </tr>
+
+            <tr>
+                <td>08:00</td>
+                <td>Abertura do evento</td>
+                <td>Auditório</td>
+            </tr>
+
+            <tr>
+                <td>09:00</td>
+                <td>Palestra sobre Tecnologia</td>
+                <td>Sala 01</td>
+            </tr>
+
+            <tr>
+                <td>10:30</td>
+                <td>Oficina de Programação</td>
+                <td>Laboratório de Informática</td>
+            </tr>
+
+            <tr>
+                <td>14:00</td>
+                <td>Apresentações Culturais</td>
+                <td>Pátio do Campus</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="atividades">
+        <h2>Atividades Disponíveis</h2>
+
+        <div class="atividade caixa1">
+            <h3>Oficina de Programação</h3>
+            <p>
+                Aprenda conceitos básicos de programação e desenvolva
+                suas habilidades na criação de páginas.
+            </p>
+            <a href="https://www.w3schools.com/html/">Saiba mais</a>
+        </div>
+
+        <div class="atividade caixa2">
+            <h3>Palestras de Tecnologia</h3>
+            <p>
+                Conheça novidades sobre tecnologia, inovação e mercado
+                de trabalho.
+            </p>
+            <a href="https://www.ifce.edu.br/">Saiba mais</a>
+        </div>
+
+        <div class="atividade caixa3">
+            <h3>Apresentações Culturais</h3>
+            <p>
+                Participe de apresentações artísticas e conheça
+                diferentes manifestações culturais.
+            </p>
+            <a href="https://www.ifce.edu.br/">Saiba mais</a>
+        </div>
+    </section>
+
+    <section id="inscricoes">
+        <h2>Inscrições</h2>
+
+        <p>
+            Consulte as informações sobre o evento e as atividades
+            disponíveis no site do Instituto Federal do Ceará.
+        </p>
+
+        <p>
+            <a href="https://www.ifce.edu.br/">
+                Acessar o site oficial do IFCE
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Instituto Federal do Ceará - Campus Maranguape</p>
+        <p>Responsável pela página: João Marcos [S4-T1] e Júlio César [S4-T1]</p>
+        <p>Semana de Tecnologia e Cultura</p>
+    </footer>
+
+</body>
+</html>
